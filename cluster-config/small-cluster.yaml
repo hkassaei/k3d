@@ -9,3 +9,7 @@ ports:
 - port: 80:80
   nodeFilters:
   - loadbalancer
+options:
+  kubeconfig:
+    updateDefaultKubeconfig: true
+    switchCurrentContext: true
